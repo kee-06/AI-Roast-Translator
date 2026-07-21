@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Roast Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>AI Roast Translator</h1>
+
+    <p>Choose a personality and transform your sentence!</p>
+
+    <textarea id="inputText" placeholder="Enter your sentence..."></textarea>
+
+
+    <div class="options">
+
+        <label>
+            <input type="radio" name="style" value="Shakespearean Insult">
+            🏰 Shakespearean Roast
+        </label>
+
+
+        <label>
+            <input type="radio" name="style" value="Corporate Compliment">
+            💼 Corporate Compliment
+        </label>
+
+
+        <label>
+            <input type="radio" name="style" value="Backhanded Compliment">
+            😏 Backhanded Compliment
+        </label>
+
+
+        <label>
+            <input type="radio" name="style" value="Drill Sergeant">
+            🪖 Drill Sergeant
+        </label>
+
+    </div>
+
+
+    <button onclick="translateText()">
+        Transform ✨
+    </button>
+
+
+    <div id="result"></div>
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
